@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1D1D1D;
+    background-image: url("/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 100px auto;
+    background-color: #0a0a0aa1;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);  
+    border-radius: 10px;
+}
+
+.movie-review {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text h1 {
+    font-size: 54px;
+    text-align: left;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+
+.text p {
+    font-size: 28px;
+    text-align: left;
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+
+.movie-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.poster-trailer {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.poster {
+    width: 350px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+
+.trailer iframe {
+    margin-top: -23px;
+    width: 850px;
+    height: 540px;
+}
+
+.genrecontainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.genrecontainer p{
+    margin-right: 10px;
+    border: 1px solid #ffffff9f;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+.description{
+    font-size: 16px;
+}
+
+.description2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.title p{
+    font-size: 16px;
+    padding-right: 570px;
+    padding-bottom:10px ;
+    border-bottom: 1px solid rgba(116, 116, 116, 0.744);
+}
+
+.title span{
+    color: #EFC662;
+}
+
+.button{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button a{
+    color: white;
+    border: 2px solid #EFC662 ;
+    border-radius: 100px;
+    padding: 5px 30px;
+    align-items: center;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.button a:hover{
+    background-color: #b99949;
+    border-radius: 100px;
+    padding: 5px 30px;
+    align-items: center;
+    font-size: 28px;
+    cursor: pointer;
+}
