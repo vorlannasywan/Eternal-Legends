@@ -1,6 +1,9 @@
 {
-    "static": {
-      "directory": "public"
-    }
-  }
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/index.html"
+      }
+    ]
+}
   
